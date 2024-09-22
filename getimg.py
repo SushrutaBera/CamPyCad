@@ -1,5 +1,6 @@
 import pygame
-wire_type = "wire_st_r0"
+# setting up the file tp be stored
+wire_type = "wire_st_r0" 
 
 # Initialize Pygame
 pygame.init()
