@@ -42,7 +42,6 @@ v_c = np.zeros_like(times)
 
 for i in range(1, len(times)):
     v_c[i] = v_source * (1- np.exp(-times[i]/(R*C)))
-
 idx_6321 = np.abs(v_c - 0.6321 * v_source).argmin()
 time_6321 = times[idx_6321]
 
